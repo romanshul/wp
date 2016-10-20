@@ -1,0 +1,16 @@
+{
+  "name": "spock/wp-nonce-wrapper",
+  "description": "Simplified WordPress nonce usage",
+  "autoload": {
+    "files": ["src/class-nonce-wrapper.php"]
+  },
+  "authors": [
+    {
+      "name": "Spock",
+      "email": "itismeutkarsh@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "brain/monkey": "~1.0"
+  }
+}

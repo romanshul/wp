@@ -1,0 +1,32 @@
+{
+    "repositories": [
+        {
+    "type": "package",
+    "package": {
+        "name": "wordpress",
+        "type": "webroot",
+        "version": "4.6.1",
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/WordPress/WordPress/archive/4.6.1.zip"
+        },
+        "require" : {
+            "fancyguy/webroot-installer": "1.0.0"
+        }
+    }
+},
+{
+            "type":"composer",
+            "url":"https://packagist.org"
+        }
+    ],
+    "require": {
+        "wordpress": "4.*",
+        "fancyguy/webroot-installer": "1.0.0",
+        "spock/wp-nonce-wrapper": "0.4"
+    },
+    "extra": {
+        "webroot-dir": "public/wp",
+        "webroot-package": "wordpress"
+    }
+}

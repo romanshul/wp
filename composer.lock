@@ -1,0 +1,108 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "8a9c474daefc685b7b0cc9145e1fb535",
+    "content-hash": "63840656d60bfa1cb6fd33e8411b43f0",
+    "packages": [
+        {
+            "name": "fancyguy/webroot-installer",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fancyguy/webroot-installer.git",
+                "reference": "4888a3dad9ab3b3da505a149230be0ec2ab837f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fancyguy/webroot-installer/zipball/4888a3dad9ab3b3da505a149230be0ec2ab837f4",
+                "reference": "4888a3dad9ab3b3da505a149230be0ec2ab837f4",
+                "shasum": ""
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "FancyGuy\\Composer\\WebrootInstaller"
+            },
+            "autoload": {
+                "psr-0": {
+                    "FancyGuy\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Buzonas",
+                    "email": "steve@fancyguy.com",
+                    "homepage": "http://www.stevebuzonas.com"
+                }
+            ],
+            "description": "A composer installer for libraries that live in an application webroot.",
+            "homepage": "http://fancyguy.github.com/webroot-installer/",
+            "time": "2013-01-29 22:51:45"
+        },
+        {
+            "name": "spock/wp-nonce-wrapper",
+            "version": "v0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PatelUtkarsh/wp-nonce-wrapper.git",
+                "reference": "b5019f600a8b07e643a49e0806e98bcea4114f24"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PatelUtkarsh/wp-nonce-wrapper/zipball/b5019f600a8b07e643a49e0806e98bcea4114f24",
+                "reference": "b5019f600a8b07e643a49e0806e98bcea4114f24",
+                "shasum": ""
+            },
+            "require-dev": {
+                "brain/monkey": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/class-nonce-wrapper.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Spock",
+                    "email": "itismeutkarsh@gmail.com"
+                }
+            ],
+            "description": "Simplified WordPress nonce usage",
+            "time": "2016-03-17 20:11:06"
+        },
+        {
+            "name": "wordpress",
+            "version": "4.6.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/WordPress/WordPress/archive/4.6.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "fancyguy/webroot-installer": "1.0.0"
+            },
+            "type": "webroot"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
